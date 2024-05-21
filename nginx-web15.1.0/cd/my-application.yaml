@@ -14,7 +14,7 @@ spec:
     helm:
       valueFiles:
       - ci/my-values.yaml
-    path: nginx-webserver/nginx-15.1.0
+    path: k8s-class/nginx-15.1.0
     repoURL: https://github.com/yeonsue/k8s-class.git
     targetRevision: HEAD
   syncPolicy:
